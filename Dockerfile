@@ -11,7 +11,7 @@ COPY . .
 RUN go build -o main .
 
 # Final stage - Distroless iamge
-From gcr.io/distroless/base
+FROM gcr.io/distroless/base
 
 COPY --from=base /app/main .
 
