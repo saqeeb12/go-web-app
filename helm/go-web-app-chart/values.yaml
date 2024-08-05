@@ -4,6 +4,8 @@
 
 replicaCount: 1
 
+name: go-web-app
+
 image:
   repository: saqeebmagdum/go-web-app
   pullPolicy: IfNotPresent
